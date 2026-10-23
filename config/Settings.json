@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "timing": {
+    "renderRate": 0.004098360655737705,
+    "physicsRate": 0.004098360655737705
+  },
+  "arena": {
+    "width": 5000,
+    "height": 5000,
+    "gridSize": 50,
+    "gridLineWidth": 1.0
+  },
+  "colors": {
+    "arenaColor": [200, 200, 200, 255],
+    "arenaGridColor": [0, 0, 0, 14],
+    "backgroundColor": [150, 150, 150, 255],
+
+    "globalStrokeColor": [80, 80, 80, 255],
+
+    "palette": {
+      "CLEAR": [0, 0, 0, 0],
+      "RED": [241, 78, 84, 255],
+      "BLUE": [0, 178, 225, 255],
+      "GREEN": [0, 225, 110, 255],
+      "PURPLE": [191, 127, 245, 255],
+      "GREY": [153, 153, 153, 255],
+      "GRID": [205, 205, 205, 255],
+      "BOUNDARY": [0, 0, 0, 15],
+      "HEALTH_BAR": [133, 227, 125, 255],
+      "DARK_GREY": [85, 85, 85, 255],
+      "LEVELBAR": [255, 232, 105, 255],
+      "SCORE_GREEN": [67, 255, 145, 255],
+      "BAR_GREY": [20, 20, 20, 255],
+      "HEALTH_REGEN": [252, 173, 118, 255],
+      "MAX_HEALTH": [249, 67, 255, 255],
+      "BODY_DAMAGE": [133, 67, 255, 255],
+      "BULLET_SPEED": [67, 127, 255, 255],
+      "BULLET_PENETRATION": [255, 222, 67, 255],
+      "BULLET_DAMAGE": [255, 67, 67, 255],
+      "RELOAD": [130, 255, 67, 255],
+      "MOVEMENT_SPEED": [67, 255, 249, 255],
+      "TRIANGLE": [252, 118, 119, 255],
+      "CRASHER": [241, 119, 221, 255],
+      "AQUA_BUTTON": [163, 255, 251, 255],
+      "PURPLE_BUTTON": [183, 136, 251, 255],
+      "YELLOW_BUTTON": [250, 236, 147, 255],
+      "RED_BUTTON": [255, 142, 144, 255],
+      "PINK_BUTTON": [248, 135, 253, 255]
+    }
+  }
+}
+

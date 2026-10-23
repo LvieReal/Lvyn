@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "spawner": {
+    "nestSideDivisor": 6.3,
+    "crasherSideMultiplier": 2.0,
+
+    "polygonAreaDivisor": 180.0,
+    "nestAreaDivisor": 220.0,
+
+    "avoidPlayerDistance": 173.0,
+
+    "nestPolygonId": "pentagon",
+    "alphaNestPolygonId": "alpha_pentagon",
+
+    "alphaPentagonChance": 0.01,
+    "alphaPentagonMax": 5,
+
+    "randomPolygonWeights": [
+      { "id": "pentagon", "weight": 0.04 },
+      { "id": "triangle", "weight": 0.16 },
+      { "id": "square", "weight": 0.80 }
+    ]
+  },
+  "polygons": [
+    {
+      "id": "square",
+      "display": "Square",
+      "sides": 4,
+      "radius": 38.890872,
+      "zIndex": -1.0,
+      "fillColor": [255, 232, 105, 255],
+      "maxHealth": 10.0,
+      "damage": 8.0,
+      "scoreReward": 10.0,
+      "friction": 0.988,
+      "absorptionFactor": 1.0,
+      "pushFactor": 8.0,
+      "baseAcceleration": 0.15,
+      "orbitRate": 0.0025,
+      "orbitRateRandomRange": [0.75, 1.25],
+      "rotationRate": 0.004,
+      "edgeBuffer": 400.0
+    },
+    {
+      "id": "triangle",
+      "display": "Triangle",
+      "sides": 3,
+      "radius": 38.890872,
+      "zIndex": -1.0,
+      "fillColor": [252, 118, 119, 255],
+      "maxHealth": 30.0,
+      "damage": 8.0,
+      "scoreReward": 25.0,
+      "friction": 0.988,
+      "absorptionFactor": 1.0,
+      "pushFactor": 8.0,
+      "baseAcceleration": 0.15,
+      "orbitRate": 0.0025,
+      "orbitRateRandomRange": [0.75, 1.25],
+      "rotationRate": 0.004,
+      "edgeBuffer": 400.0
+    },
+    {
+      "id": "pentagon",
+      "display": "Pentagon",
+      "sides": 5,
+      "radius": 64.845971,
+      "zIndex": -1.0,
+      "fillColor": [118, 141, 252, 255],
+      "maxHealth": 130.0,
+      "damage": 12.0,
+      "scoreReward": 130.0,
+      "friction": 0.988,
+      "absorptionFactor": 0.5,
+      "pushFactor": 11.0,
+      "baseAcceleration": 0.12,
+      "orbitRate": 0.0020,
+      "orbitRateRandomRange": [0.75, 1.25],
+      "rotationRate": 0.0035,
+      "edgeBuffer": 400.0
+    },
+    {
+      "id": "alpha_pentagon",
+      "display": "Alpha Pentagon",
+      "sides": 5,
+      "radius": 172.922589,
+      "zIndex": -1.0,
+      "fillColor": [118, 141, 252, 255],
+      "maxHealth": 4000.0,
+      "damage": 20.0,
+      "scoreReward": 3000.0,
+      "friction": 0.988,
+      "absorptionFactor": 0.05,
+      "pushFactor": 11.0,
+      "baseAcceleration": 0.10,
+      "orbitRate": 0.0012,
+      "orbitRateRandomRange": [0.75, 1.25],
+      "rotationRate": 0.0030,
+      "edgeBuffer": 400.0
+    }
+  ]
+}

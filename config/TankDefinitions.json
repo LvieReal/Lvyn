@@ -1,0 +1,2997 @@
+﻿[
+    {
+        "id":  0,
+        "name":  "Tank",
+        "upgrades":  [
+                         1,
+                         6,
+                         7,
+                         8,
+                         36
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  1,
+        "name":  "Twin",
+        "levelRequirement":  15,
+        "upgrades":  [
+                         3,
+                         4,
+                         13
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -24,
+                            "size":  95,
+                            "width":  42,
+                            "recoil":  0.75,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.9,
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  24,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  0.75,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.9,
+                                           "damage":  0.65
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  2,
+        "name":  "Triplet",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -26,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.7,
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  26,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.7,
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "recoil":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.7,
+                                           "damage":  0.6
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  3,
+        "name":  "Triple Shot",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         2,
+                         14,
+                         42
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  -0.7853981633974483,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.7
+                                       }
+                        },
+                        {
+                            "angle":  0.7853981633974483,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.7
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.7
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  4,
+        "name":  "Quad Tank",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         5,
+                         40
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.75
+                                       }
+                        },
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.75
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.75
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.75
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  5,
+        "name":  "Octo Tank",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  -0.7853981633974483,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  0.7853981633974483,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  -2.356194490192345,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  2.356194490192345,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.65
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  6,
+        "name":  "Sniper",
+        "levelRequirement":  15,
+        "upgrades":  [
+                         15,
+                         11,
+                         19,
+                         31
+                     ],
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "reload":  1.5,
+                            "recoil":  3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "speed":  1.5,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  7,
+        "name":  "Machine Gun",
+        "levelRequirement":  15,
+        "upgrades":  [
+                         10,
+                         20,
+                         29
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "reload":  0.5,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.7,
+                                           "scatterRate":  3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  8,
+        "name":  "Flank Guard",
+        "levelRequirement":  15,
+        "upgrades":  [
+                         9,
+                         4,
+                         13,
+                         41
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  9,
+        "name":  "Tri-Angle",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         23,
+                         24
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        },
+                        {
+                            "angle":  3.665191429188092,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.6179938779914944,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  10,
+        "name":  "Destroyer",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         25,
+                         49,
+                         54,
+                         55,
+                         56
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  71.39999999999999,
+                            "reload":  4,
+                            "recoil":  15,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  2,
+                                           "damage":  3,
+                                           "speed":  0.7,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  11,
+        "name":  "Overseer",
+        "levelRequirement":  30,
+        "upgradeMessage":  "Use your left mouse button to control the drones",
+        "upgrades":  [
+                         12,
+                         17,
+                         26,
+                         33,
+                         48,
+                         52
+                     ],
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  12,
+        "name":  "Overlord",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  13,
+        "name":  "Twin Flank",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         18,
+                         48
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -26,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  26,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  -26,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  26,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  14,
+        "name":  "Penta Shot",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  -0.7853981633974483,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.66,
+                            "recoil":  0.7,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.55
+                                       }
+                        },
+                        {
+                            "angle":  0.7853981633974483,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.66,
+                            "recoil":  0.7,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.55
+                                       }
+                        },
+                        {
+                            "angle":  -0.39269908169872414,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.33,
+                            "recoil":  0.7,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.55
+                                       }
+                        },
+                        {
+                            "angle":  0.39269908169872414,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.33,
+                            "recoil":  0.7,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.55
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "recoil":  0.7,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.55
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  15,
+        "name":  "Assassin",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         22,
+                         21
+                     ],
+        "fieldFactor":  0.8,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  120,
+                            "width":  42,
+                            "reload":  2,
+                            "recoil":  3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "speed":  1.5,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  16,
+        "name":  "Arena Closer",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  75,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  300,
+                                           "damage":  7,
+                                           "speed":  2
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  17,
+        "name":  "Necromancer",
+        "levelRequirement":  45,
+        "flags":  {
+                      "canClaimSquares":  true
+                  },
+        "fieldFactor":  0.9,
+        "sides":  4,
+        "barrels":  [
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "necrodrone",
+                                           "health":  2,
+                                           "damage":  0.42,
+                                           "speed":  0.72,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "necrodrone",
+                                           "health":  2,
+                                           "damage":  0.42,
+                                           "speed":  0.72,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Count",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  18,
+        "name":  "Triple Twin",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -24,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  24,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.0943951023931953,
+                            "offset":  -24,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.0943951023931953,
+                            "offset":  24,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  -2.0943951023931953,
+                            "offset":  -24,
+                            "size":  95,
+                            "width":  42,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  -2.0943951023931953,
+                            "offset":  24,
+                            "size":  95,
+                            "width":  42,
+                            "delay":  0.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  19,
+        "name":  "Hunter",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         28,
+                         43
+                     ],
+        "fieldFactor":  0.85,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "reload":  2.5,
+                            "recoil":  0.3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.75,
+                                           "speed":  1.4,
+                                           "scatterRate":  0.3
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  56.7,
+                            "delay":  0.2,
+                            "reload":  2.5,
+                            "recoil":  0.3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.75,
+                                           "speed":  1.4,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  20,
+        "name":  "Gunner",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         39,
+                         32,
+                         43
+                     ],
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -32,
+                            "size":  65,
+                            "width":  25.2,
+                            "delay":  0.5,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  32,
+                            "size":  65,
+                            "width":  25.2,
+                            "delay":  0.75,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  -17,
+                            "size":  85,
+                            "width":  25.2,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  17,
+                            "size":  85,
+                            "width":  25.2,
+                            "delay":  0.25,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  21,
+        "name":  "Stalker",
+        "levelRequirement":  45,
+        "flags":  {
+                      "invisibility":  true
+                  },
+        "fieldFactor":  0.8,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  120,
+                            "width":  42,
+                            "reload":  2,
+                            "recoil":  3,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "speed":  1.5,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  22,
+        "name":  "Ranger",
+        "levelRequirement":  45,
+        "fieldFactor":  0.7,
+        "postAddon":  "pronounced",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  120,
+                            "width":  42,
+                            "reload":  2,
+                            "recoil":  3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "speed":  1.5,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  23,
+        "name":  "Booster",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        },
+                        {
+                            "angle":  3.9269908169872414,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "delay":  0.66,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.356194490192345,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "delay":  0.66,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  3.665191429188092,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.33,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.6179938779914944,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.33,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  24,
+        "name":  "Fighter",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "reload":  1.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  -1.5707963267948966,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "reload":  1.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  3.665191429188092,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  2.6179938779914944,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  2.5,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.2,
+                                           "lifeLength":  0.5
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  25,
+        "name":  "Hybrid",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  71.39999999999999,
+                            "reload":  4,
+                            "recoil":  15,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  2,
+                                           "damage":  3,
+                                           "speed":  0.7,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  1.4,
+                                           "damage":  0.7,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  26,
+        "name":  "Manager",
+        "levelRequirement":  45,
+        "flags":  {
+                      "invisibility":  true
+                  },
+        "visibilityRateShooting":  0,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  3,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.8,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  27,
+        "name":  "Mothership",
+        "absorbtionFactor":  0.01,
+        "sides":  16,
+        "borderWidth":  140,
+        "barrels":  [
+                        {
+                            "angle":  0.19634954084936207,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  0.5890486225480862,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  0.9817477042468103,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  1.3744467859455345,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  1.7671458676442586,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  2.159844949342983,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  2.552544031041707,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  2.9452431127404313,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  3.3379421944391554,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  3.7306412761378795,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  4.12333992150429,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  4.516039439535327,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  4.908738521234052,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  5.301437166600463,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  5.6941366846315,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  6.086835766330224,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  10.5,
+                            "reload":  6,
+                            "recoil":  0,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  2,
+                                           "damage":  0.7,
+                                           "speed":  0.48,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  28,
+        "name":  "Predator",
+        "levelRequirement":  45,
+        "upgradeMessage":  "Use your right mouse button to look further in the direction you\u0027re facing",
+        "flags":  {
+                      "zoomAbility":  true
+                  },
+        "fieldFactor":  0.85,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "reload":  3,
+                            "recoil":  0.3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.75,
+                                           "speed":  1.4,
+                                           "scatterRate":  0.3
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  56.7,
+                            "delay":  0.2,
+                            "reload":  3,
+                            "recoil":  0.3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.75,
+                                           "speed":  1.4,
+                                           "scatterRate":  0.3
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  71.39999999999999,
+                            "delay":  0.4,
+                            "reload":  3,
+                            "recoil":  0.3,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.75,
+                                           "speed":  1.4,
+                                           "scatterRate":  0.3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  29,
+        "name":  "Sprayer",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "delay":  0.5,
+                            "recoil":  0,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "reload":  0.5,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.7,
+                                           "scatterRate":  3
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  31,
+        "name":  "Trapper",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         35,
+                         32,
+                         33,
+                         34,
+                         44
+                     ],
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  8
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  32,
+        "name":  "Gunner Trapper",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -16,
+                            "size":  75,
+                            "width":  21,
+                            "delay":  0.66,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  16,
+                            "size":  75,
+                            "width":  21,
+                            "delay":  0.33,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.5
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  54.6,
+                            "reload":  3,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  8
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  33,
+        "name":  "Overtrapper",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  8
+                                       }
+                        },
+                        {
+                            "angle":  2.0943951023931953,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  1.4,
+                                           "damage":  0.7,
+                                           "lifeLength":  -1
+                                       }
+                        },
+                        {
+                            "angle":  4.1887902047863905,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  6,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "drone",
+                                           "health":  1.4,
+                                           "damage":  0.7,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  34,
+        "name":  "Mega Trapper",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  54.6,
+                            "reload":  3.3,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  1.28,
+                                           "health":  3.2,
+                                           "damage":  1.6,
+                                           "speed":  2,
+                                           "lifeLength":  8
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  35,
+        "name":  "Tri-Trapper",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  2.0943951023931953,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  4.1887902047863905,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  3.2
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  36,
+        "name":  "Smasher",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         38,
+                         50,
+                         51
+                     ],
+        "fieldFactor":  0.9,
+        "postAddon":  "smasher",
+        "barrels":  [
+
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  10
+                      }
+                  ]
+    },
+    {
+        "id":  38,
+        "name":  "Landmine",
+        "levelRequirement":  45,
+        "flags":  {
+                      "invisibility":  true
+                  },
+        "visibilityRateShooting":  0,
+        "visibilityRateMoving":  0.16,
+        "invisibilityRate":  0.003,
+        "fieldFactor":  0.9,
+        "postAddon":  "landmine",
+        "barrels":  [
+
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  10
+                      }
+                  ]
+    },
+    {
+        "id":  39,
+        "name":  "Auto Gunner",
+        "levelRequirement":  45,
+        "postAddon":  "autoturret",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -32,
+                            "size":  65,
+                            "width":  25.2,
+                            "delay":  0.5,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  32,
+                            "size":  65,
+                            "width":  25.2,
+                            "delay":  0.75,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  -17,
+                            "size":  85,
+                            "width":  25.2,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  17,
+                            "size":  85,
+                            "width":  25.2,
+                            "delay":  0.25,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  0.45,
+                                           "damage":  0.5,
+                                           "speed":  1.1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  40,
+        "name":  "Auto 5",
+        "levelRequirement":  45,
+        "postAddon":  "auto5",
+        "barrels":  [
+
+                    ]
+    },
+    {
+        "id":  41,
+        "name":  "Auto 3",
+        "levelRequirement":  30,
+        "upgrades":  [
+                         40,
+                         39
+                     ],
+        "postAddon":  "auto3",
+        "barrels":  [
+
+                    ]
+    },
+    {
+        "id":  42,
+        "name":  "Spread Shot",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  1.3089969389957472,
+                            "offset":  0,
+                            "size":  65,
+                            "width":  29.4,
+                            "delay":  0.833325,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  -1.3089969389957472,
+                            "offset":  0,
+                            "size":  65,
+                            "width":  29.4,
+                            "delay":  0.833325,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  1.0471975511965976,
+                            "offset":  0,
+                            "size":  71,
+                            "width":  29.4,
+                            "delay":  0.666675,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  -1.0471975511965976,
+                            "offset":  0,
+                            "size":  71,
+                            "width":  29.4,
+                            "delay":  0.666675,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0.7853981633974483,
+                            "offset":  0,
+                            "size":  77,
+                            "width":  29.4,
+                            "delay":  0.5,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  -0.7853981633974483,
+                            "offset":  0,
+                            "size":  77,
+                            "width":  29.4,
+                            "delay":  0.5,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0.5235987755982988,
+                            "offset":  0,
+                            "size":  83,
+                            "width":  29.4,
+                            "delay":  0.333325,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  -0.5235987755982988,
+                            "offset":  0,
+                            "size":  83,
+                            "width":  29.4,
+                            "delay":  0.333325,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0.2617993877991494,
+                            "offset":  0,
+                            "size":  89,
+                            "width":  29.4,
+                            "delay":  0.166675,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  -0.2617993877991494,
+                            "offset":  0,
+                            "size":  89,
+                            "width":  29.4,
+                            "delay":  0.166675,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "damage":  0.6
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  42,
+                            "reload":  2,
+                            "recoil":  0.1,
+                            "bullet":  {
+                                           "type":  "bullet"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  43,
+        "name":  "Streamliner",
+        "levelRequirement":  45,
+        "fieldFactor":  0.85,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  110,
+                            "width":  42,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.2,
+                                           "speed":  1.1,
+                                           "scatterRate":  0.3,
+                                           "lifeLength":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  100,
+                            "width":  42,
+                            "delay":  0.2,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.2,
+                                           "speed":  1.1,
+                                           "scatterRate":  0.3,
+                                           "lifeLength":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  90,
+                            "width":  42,
+                            "delay":  0.4,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.2,
+                                           "speed":  1.1,
+                                           "scatterRate":  0.3,
+                                           "lifeLength":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  42,
+                            "delay":  0.6,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.2,
+                                           "speed":  1.1,
+                                           "scatterRate":  0.3,
+                                           "lifeLength":  0.8
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "delay":  0.8,
+                            "recoil":  0.2,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.2,
+                                           "speed":  1.1,
+                                           "scatterRate":  0.3,
+                                           "lifeLength":  0.8
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  44,
+        "name":  "Auto Trapper",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "postAddon":  "autoturret",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  42,
+                            "reload":  1.5,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  2,
+                                           "speed":  2,
+                                           "lifeLength":  8
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  45,
+        "name":  "Dominator Destroyer",
+        "maxHealth":  6000,
+        "preAddon":  "dombase",
+        "postAddon":  "dompronounced",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  34.99965,
+                            "delay":  0.001,
+                            "reload":  3,
+                            "recoil":  0,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  100,
+                                           "damage":  10,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  0
+                      }
+                  ]
+    },
+    {
+        "id":  46,
+        "name":  "Dominator Gunner",
+        "maxHealth":  6000,
+        "preAddon":  "dombase",
+        "postAddon":  "dompronounced",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  -6,
+                            "size":  75,
+                            "width":  17.50035,
+                            "delay":  0.666,
+                            "reload":  0.3,
+                            "recoil":  0,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.6,
+                                           "health":  5,
+                                           "speed":  1.2
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  6,
+                            "size":  75,
+                            "width":  17.50035,
+                            "delay":  0.333,
+                            "reload":  0.3,
+                            "recoil":  0,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.6,
+                                           "health":  5,
+                                           "speed":  1.2
+                                       }
+                        },
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  17.50035,
+                            "delay":  0.001,
+                            "reload":  0.3,
+                            "recoil":  0,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "sizeRatio":  0.6,
+                                           "health":  5,
+                                           "speed":  1.2
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  0
+                      }
+                  ]
+    },
+    {
+        "id":  47,
+        "name":  "Dominator Trapper",
+        "maxHealth":  6000,
+        "preAddon":  "dombase",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  0.7853981633974483,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  2.356194490192345,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  3.141592653589793,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  3.9269908169872414,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  4.71238898038469,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        },
+                        {
+                            "angle":  5.497787143782138,
+                            "offset":  0,
+                            "size":  60,
+                            "width":  21,
+                            "reload":  1.5,
+                            "recoil":  0,
+                            "addon":  "trapLauncher",
+                            "bullet":  {
+                                           "type":  "trap",
+                                           "sizeRatio":  0.8,
+                                           "health":  20,
+                                           "damage":  3,
+                                           "speed":  4,
+                                           "lifeLength":  3.2
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  0
+                      }
+                  ]
+    },
+    {
+        "id":  48,
+        "name":  "Battleship",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "barrels":  [
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  -20,
+                            "size":  75,
+                            "width":  29.4,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "swarm",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.15,
+                                           "lifeLength":  1.25
+                                       }
+                        },
+                        {
+                            "angle":  4.71238898038469,
+                            "offset":  -20,
+                            "size":  75,
+                            "width":  29.4,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "swarm",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.15,
+                                           "lifeLength":  1.25
+                                       }
+                        },
+                        {
+                            "angle":  1.5707963267948966,
+                            "offset":  20,
+                            "size":  75,
+                            "width":  29.4,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "swarm",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.15,
+                                           "lifeLength":  1.25
+                                       }
+                        },
+                        {
+                            "angle":  4.71238898038469,
+                            "offset":  20,
+                            "size":  75,
+                            "width":  29.4,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "swarm",
+                                           "sizeRatio":  0.7,
+                                           "damage":  0.15,
+                                           "lifeLength":  1.25
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  49,
+        "name":  "Annihilator",
+        "levelRequirement":  45,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  95,
+                            "width":  96.6,
+                            "reload":  4,
+                            "recoil":  17,
+                            "bullet":  {
+                                           "type":  "bullet",
+                                           "health":  2,
+                                           "damage":  3,
+                                           "speed":  0.7,
+                                           "absorbtionFactor":  0.05
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  50,
+        "name":  "Auto Smasher",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "postAddon":  "autosmasher",
+        "barrels":  [
+
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  10
+                      }
+                  ]
+    },
+    {
+        "id":  51,
+        "name":  "Spike",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "postAddon":  "spike",
+        "barrels":  [
+
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Damage",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Penetration",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Bullet Speed",
+                          "max":  0
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  10
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  10
+                      }
+                  ]
+    },
+    {
+        "id":  52,
+        "name":  "Factory",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "sides":  4,
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  70,
+                            "width":  42,
+                            "reload":  3,
+                            "isTrapezoid":  true,
+                            "bullet":  {
+                                           "type":  "minion",
+                                           "health":  4,
+                                           "damage":  0.7,
+                                           "speed":  0.56,
+                                           "lifeLength":  -1
+                                       }
+                        }
+                    ],
+        "stats":  [
+                      {
+                          "name":  "Movement Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Reload",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Drone Speed",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Body Damage",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Max Health",
+                          "max":  7
+                      },
+                      {
+                          "name":  "Health Regen",
+                          "max":  7
+                      }
+                  ]
+    },
+    {
+        "id":  54,
+        "name":  "Skimmer",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "preAddon":  "launcher",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  71.39999999999999,
+                            "reload":  4,
+                            "recoil":  3,
+                            "bullet":  {
+                                           "type":  "skimmer",
+                                           "health":  3,
+                                           "speed":  0.5,
+                                           "lifeLength":  1.3,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  55,
+        "name":  "Rocketeer",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "preAddon":  "launcher",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  52.5,
+                            "reload":  4,
+                            "recoil":  3,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "rocket",
+                                           "health":  5,
+                                           "speed":  0.3,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        }
+                    ]
+    },
+    {
+        "id":  56,
+        "name":  "Glider",
+        "levelRequirement":  45,
+        "fieldFactor":  0.9,
+        "preAddon":  "glider",
+        "barrels":  [
+                        {
+                            "angle":  0,
+                            "offset":  0,
+                            "size":  80,
+                            "width":  56.7,
+                            "reload":  4,
+                            "recoil":  3,
+                            "isTrapezoid":  true,
+                            "trapezoidDirection":  3.141592653589793,
+                            "bullet":  {
+                                           "type":  "glider",
+                                           "health":  3,
+                                           "speed":  0.5,
+                                           "lifeLength":  1.3,
+                                           "absorbtionFactor":  0.1
+                                       }
+                        }
+                    ]
+    }
+]
